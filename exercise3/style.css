@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80px 400px auto 250px;
+    grid-template-rows: 80px auto;
+  }
+  nav{
+    background-color: rgb(49, 48, 48);
+    grid-row: 1/5;
+    width: 80px;
+  }
+  menu{
+    background-color:blueviolet;
+    grid-column: 2/5;
+    height: 80px;
+    padding-bottom: 1px;
+    
+  }
+  button{
+    background-color: #5F3DC4;
+    border: none;
+    
+      }
+  
+  section{
+    background-color: #d3d3d3;
+    color: black;
+    grid-row: 2/5;
+    width: 400px; 
+    padding: 40px;
+  }
+.email{
+  padding: 10px;
+  background-color: #adb5bd;
+  padding-top: 40px;
+  overflow: scroll;
+}
+
+  main{
+    grid-row: 2/5;
+    color: black;
+  }
+  aside{
+    background-color:  #d3d3d3;
+    grid-row: 2/5;
+    width: 250px;
+    color: black;
+  }
